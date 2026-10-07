@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Spotify Premium</title>
-<!-- Icono oficial de Spotify para la pestaña del navegador (Favicon) --> <link rel="icon" href="https://storage.googleapis.com/pr-newsroom-wp/1/2023/05/Spotify_Primary_Logo_RGB_Green.png">
-     <link rel="icon" type="image/png" href="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_RGB_Green.png">
-    <meta property="og:title" content="Spotify Premium - Música sin anuncios">
-    <meta property="og:description" content="Escúchala en todos lados">
-    <meta property="og:image" content="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_RGB_Green.png" > <style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spotify Premium</title>
+  <link rel="icon" href="https://storage.googleapis.com/pr-newsroom-wp/1/2023/05/Spotify_Primary_Logo_RGB_Green.png">
+  <link rel="icon" type="image/png" href="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_RGB_Green.png">
+  <meta property="og:title" content="Spotify Premium - Música sin anuncios">
+  <meta property="og:description" content="Escúchala en todos lados">
+  <meta property="og:image" content="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_RGB_Green.png">
+  <style>
     body {
       margin: 0;
       font-family: Arial, sans-serif;
-      background: #121212; /* Fondo oscuro estilo Spotify */
+      background: #121212;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -23,14 +24,13 @@
     .card {
       width: 90%;
       max-width: 400px;
-      background: #181818; /* Tarjeta gris oscuro oficial */
+      background: #181818;
       padding: 35px 30px;
       border-radius: 18px;
       text-align: center;
       box-shadow: 0 8px 30px rgba(0,0,0,.5);
     }
 
-    /* Estilo para el icono principal superior */
     .logo-principal {
       width: 80px;
       height: 80px;
@@ -45,13 +45,12 @@
     }
 
     p {
-      color: #b3b3b3; /* Texto secundario gris claro */
+      color: #b3b3b3;
       font-size: 15px;
       line-height: 1.5;
       margin-bottom: 20px;
     }
 
-    /* Estilo para el precio destacado */
     .precio {
       font-size: 32px;
       font-weight: bold;
@@ -65,7 +64,6 @@
       margin-bottom: 25px;
     }
 
-    /* Botón interactivo con el icono integrado de la app */
     button {
       display: inline-flex;
       align-items: center;
@@ -74,8 +72,8 @@
       width: 100%;
       padding: 15px;
       border: 0;
-      border-radius: 50px; /* Bordes completamente redondeados */
-      background: #1DB954; /* Verde oficial de Spotify */
+      border-radius: 50px;
+      background: #1DB954;
       color: white;
       font-size: 17px;
       font-weight: bold;
@@ -84,14 +82,13 @@
     }
 
     button:hover {
-      background: #1ed760; /* Verde más brillante al pasar el cursor */
+      background: #1ed760;
     }
 
     button:active {
       transform: scale(0.98);
     }
 
-    /* Tamaño y color del icono dentro del botón */
     button svg {
       width: 24px;
       height: 24px;
@@ -100,38 +97,79 @@
 </head>
 
 <body>
-
   <div class="card">
-    <!-- Icono SVG oficial de la App de Spotify como Logo Principal -->
-    <svg class="logo-principal" viewBox="0 0 24 24" xmlns="http://w3.org">
+    <svg class="logo-principal" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-label="Spotify premium">
       <circle cx="12" cy="12" r="12" fill="#1DB954"/>
-      <path d="M16.586 16.424c-.18.295-.565.387-.86.207-2.377-1.454-5.37-1.783-8.894-.982-.336.074-.67-.142-.746-.48-.074-.335.143-.67.48-.747 3.856-.88 7.15-.51 9.813 1.126.297.18.388.564.207.86zm1.223-2.72c-.227.367-.707.487-1.074.26-2.72-1.672-6.87-2.157-10.082-1.182-.413.125-.85-.107-.975-.522-.125-.413.108-.85.522-.975 3.678-1.116 8.246-.574 11.35 1.335.366.226.486.706.26 1.073zm.105-2.833c-2.484-.737-8.13-1.013-11.396-.022-.503.153-1.03-.134-1.183-.637-.152-.503.134-1.03.637-1.183 3.756-1.14 10-.927 13.98 1.434.454.137.705.616.568 1.07-.137.454-.616.706-1.07.568z" fill="#000000"/>
+      <path d="M16.586 16.424c-.18.295-.565.387-.86.207-2.377-1.454-5.37-1.783-8.894-.982-.336.074-.67-.142-.746-.48-.074-.335.143-.67.48-.747 3.856-.88 7.15-.51 9.813 1.126.297.18.388.564.207.86zm1.2-2.44c-.231.378-.728.5-1.104.27-2.72-1.667-6.89-2.158-10.16-1.18-.42.1-.864-.12-.964-.54-.1-.42.12-.864.54-.964 3.674-1.102 8.27-.62 11.58 1.32.375.228.5.72.27 1.104zm.12-2.51c-3.27-1.94-8.73-2.12-11.89-1.17-.492.15-.995-.125-1.145-.615-.15-.492.125-.995.615-1.145 3.79-1.15 9.96-.92 13.55 1.36.445.262.575.848.315 1.293-.262.445-.848.575-1.293.315z" fill="#fff"/>
     </svg>
 
     <h1>Spotify Premium por 7 meses</h1>
 
     <p>Disfruta de tu música favorita sin anuncios, en modo offline y con calidad de audio alta durante más de medio año. Escucha sin interrupciones en cualquier dispositivo.</p>
 
-    <!-- Sección de Precio -->
     <div class="precio">$150.00 MXN</div>
     <div class="periodo">pago único por la promoción</div>
 
-    <button id="boton-pago" onclick="irAlPago()">
-      <!-- Icono SVG oficial de la App de Spotify (Versión secundaria para el botón) -->
-      <svg viewBox="0 0 24 24" xmlns="http://w3.org">
+    <button id="boton-pago" type="button">
+      <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
         <circle cx="12" cy="12" r="12" fill="#1DB954"/>
-        <path d="M16.586 16.424c-.18.295-.565.387-.86.207-2.377-1.454-5.37-1.783-8.894-.982-.336.074-.67-.142-.746-.48-.074-.335.143-.67.48-.747 3.856-.88 7.15-.51 9.813 1.126.297.18.388.564.207.86zm1.223-2.72c-.227.367-.707.487-1.074.26-2.72-1.672-6.87-2.157-10.082-1.182-.413.125-.85-.107-.975-.522-.125-.413.108-.85.522-.975 3.678-1.116 8.246-.574 11.35 1.335.366.226.486.706.26 1.073zm.105-2.833c-2.484-.737-8.13-1.013-11.396-.022-.503.153-1.03-.134-1.183-.637-.152-.503.134-1.03.637-1.183 3.756-1.14 10-.927 13.98 1.434.454.137.705.616.568 1.07-.137.454-.616.706-1.07.568z" fill="#000000"/>
+        <path d="M16.586 16.424c-.18.295-.565.387-.86.207-2.377-1.454-5.37-1.783-8.894-.982-.336.074-.67-.142-.746-.48-.074-.335.143-.67.48-.747 3.856-.88 7.15-.51 9.813 1.126.297.18.388.564.207.86zm1.2-2.44c-.231.378-.728.5-1.104.27-2.72-1.667-6.89-2.158-10.16-1.18-.42.1-.864-.12-.964-.54-.1-.42.12-.864.54-.964 3.674-1.102 8.27-.62 11.58 1.32.375.228.5.72.27 1.104zm.12-2.51c-3.27-1.94-8.73-2.12-11.89-1.17-.492.15-.995-.125-1.145-.615-.15-.492.125-.995.615-1.145 3.79-1.15 9.96-.92 13.55 1.36.445.262.575.848.315 1.293-.262.445-.848.575-1.293.315z" fill="#fff"/>
       </svg>
       <span>Pagar con Mercado Pago</span>
     </button>
   </div>
 
+  <script src="https://sdk.mercadopago.com/js/v2"></script>
   <script>
-    function irAlPago() {
-      // Abre tu enlace real de Mercado Pago en una pestaña nueva
-      window.open("https://mpago.la", "_blank");
-    }
-  </script>
+    const MP_PUBLIC_KEY = "TEST-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
+    const MP_PREFERENCE_ID = "TU_PREFERENCE_ID";
+    const ALLOWED_URLS = [
+      "https://www.mercadopago.com.ar",
+      "https://www.mercadopago.com",
+      "https://mpago.la"
+    ];
 
+    function isAllowedUrl(url) {
+      try {
+        const parsed = new URL(url);
+        if (parsed.protocol !== "https:") return false;
+        if (["javascript:", "data:", "file:"].includes(parsed.protocol)) return false;
+        return ALLOWED_URLS.includes(parsed.href) || ALLOWED_URLS.includes(parsed.origin + parsed.pathname);
+      } catch (error) {
+        return false;
+      }
+    }
+
+    function openSafeMercadoPagoUrl() {
+      const url = "https://www.mercadopago.com.ar";
+      if (!isAllowedUrl(url)) {
+        alert("URL de pago no autorizada.");
+        return;
+      }
+      window.open(url, "_blank", "noopener,noreferrer");
+    }
+
+    function payWithMercadoPago() {
+      if (MP_PUBLIC_KEY.includes("xxxxxxxx") || MP_PREFERENCE_ID === "TU_PREFERENCE_ID") {
+        openSafeMercadoPagoUrl();
+        return;
+      }
+
+      if (!window.MercadoPago) {
+        openSafeMercadoPagoUrl();
+        return;
+      }
+
+      const mp = new window.MercadoPago(MP_PUBLIC_KEY);
+      mp.checkout({
+        preference: {
+          id: MP_PREFERENCE_ID
+        },
+        autoOpen: true
+      });
+    }
+
+    document.getElementById("boton-pago").addEventListener("click", payWithMercadoPago);
+  </script>
 </body>
 </html>
